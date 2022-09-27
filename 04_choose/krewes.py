@@ -39,17 +39,15 @@ krewes = {
            8: ["ALEKSANDRA",  "NAKIB",  "AMEER",  "HENRY",  "DONALD",  "YAT LONG",  "SEBASTIAN",  "DAVID",  "YUKI",  "SHAFIUL",  "DANIEL",  "SELENA",  "JOSEPH",  "SHINJI",  "RYAN",  "APRIL",  "ERICA",  "JIAN HONG",  "VERIT",  "JOSHUA",  "WILSON",  "AAHAN",  "GORDON",  "JUSTIN",  "MAYA",  "FAIYAZ",  "SHREYA",  "ERIC",  "JEFFERY",  "BRIAN",  "KEVIN",  "SAMSON",  "BRIAN",  "HARRY",  "wanying"]
          }
 
-def chooseDevoWithInt():
-    randomPd = chooseRandomPd()
+def chooseDevoWithRandInt():
+    periods = [2, 7, 8]
+    randomPd = periods[random.randint(0, len(periods) - 1)]
     print("Random Period: ", randomPd)
     data = krewes[randomPd]
     return data[random.randint(0, len(data) - 1)]
 
-def chooseRandomPd():
-    return random.choice([2, 7, 8])
-
 def chooseDevoWithChoice():
-    randomPd = chooseRandomPd()
+    randomPd = random.choice([2, 7, 8])
     print("Random Period: ", randomPd)
     data = krewes[randomPd]
     return random.choice(data)
@@ -62,7 +60,7 @@ def chooseDevoWithRandom():
     return data[math.floor(random.random() * len(data))]
 
 print("RANDOM.RANDINT:")
-print("Random Devo: ", chooseDevoWithInt())
+print("Random Devo: ", chooseDevoWithRandInt())
 print("\nRANDOM.CHOICE:")
 print("Random Devo: ", chooseDevoWithChoice())
 print("\nRANDOM.RANDOM:")
