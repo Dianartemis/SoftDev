@@ -1,11 +1,11 @@
-""" 
+"""
 Russel Goychayev, Diana Akhmedova, Kevin Liu
 SoftDev
-05_bitstream
+K05 -- 05_bitstream
 2022-09-28
 time spent: 0.5 hours
 
-DISCO: 
+DISCO:
  - We learned how to access and read text file using open() and read().
  - We learned how to splice a String by using split(String).
 
