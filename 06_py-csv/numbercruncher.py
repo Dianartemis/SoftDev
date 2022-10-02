@@ -23,17 +23,17 @@ OPS SUMMARY:
     5.  For the rest of the elements in the list, reverse split them once with the delimiter ','
     6.  Using the list we got from rsplit, initialize all dictionaries with the key of list[0](occupations)
     7.  Store list[1] (percentage) as the value of one of the dictionaries (dict1)
-    8.  Initalize the other two dictionaries with one(dict2) with the value of [percentage, 0] and the other(dict3): 0
+    8.  Initalize the other two dictionaries with one(dict2) with the value of [percentage, 0] and the other(total): 0
     9:  Take the percentage of dict1 and multiplying it by 10, then store the key percentage*10 times in a list
     10. Using random.choice, pick a element from the list at random
 
     TESTING ALGO:
     1. Run for random.choice 1000 times, for each time a key appears, increment dict2[key][1] by 1
-    2. Then take the percent error of the number of times a key appears compare to it's Percentage
-    3. Store that percent in dict3
+    2. Then take the percent error of the number of times a key appears compare to its percentage
+    3. Store that percent in total
     4. Reset dict2 and perform steps 1-3 for a total of 1000 times
-    5. For every element in dict3, divide it by 1000
-    The values in dict3 should be the total percent error of each key(the closer it is to 0, the more accurate)
+    5. For every element in total, divide it by 1000
+    The values in total should be the total percent error of each key(the closer it is to 0, the more accurate)
 '''
 
 import random
