@@ -53,13 +53,17 @@ for x in txt:
     list = x.rsplit(",", 1)
     dict[list[0]]= float(list[1])
     a = int(float(list[1]) * 10)
-    print(a)
+    # print(a)
     dict2[list[0]] = [a, 0]
     total[list[0]] = 0
 list = []
 for x in dict:
     for y in range(0, int(dict[x]*10)):
         list.append(x)
+
+random_occupation = random.choice(list)
+random_percentage = dict[random_occupation]
+print("RANDOM OCCUPATION: " + random_occupation + "\nPERCENTAGE OF US WORKFORCE: " + str(random_percentage))
 
 # testing if our random actual works with weighted
 for y in range(0, 1000):
@@ -73,6 +77,7 @@ for y in range(0, 1000):
 
 for z in total:
     total[z] = (str(abs(total[z]/1000)))[:4]
+print("\nPERCENT ERROR: ")
 print(total)
 
 '''
