@@ -1,7 +1,7 @@
 '''
 Scuba Doo Divers: David Chen, Diana Akhmedova, Sam Cowan
 SoftDev
-K07 -- 07_
+K07 -- 07_teardown
 2022-10-03
 time spent: 0.3 hours
 
@@ -17,7 +17,6 @@ QCC:
 4. This will appear on a locally hosted server and will only appear if you are in the Flask session.
    If you click on the link in the console after "Running on __", but will say "Unable to connect" if you press CTRL+C in the console and exit the session.
 5. JavaScript.
-...
 
 INVESTIGATIVE APPROACH:
 - Our trio ran the code and clicked on the link in the console, which led to the localhost server.
