@@ -33,7 +33,7 @@
 3.  Remove the insignifcant elements of the list
 4.  Initialize three dictionaries, one for storing the values and two for testing
 5.  For the rest of the elements in the list, reverse split them once with the delimiter ','
-6.  Using the list we got from rsplit, initialize all dictionaries with the key of list[0](occupations)
+6.  Using the list we got from rsplit, initialize all dictionaries with the key of list[0] (occupations)
 7.  Store list[1] (percentage) as the value of one of the dictionaries (dict1)
 8.  Initalize the other two dictionaries with one(dict2) with the value of [percentage, 0] and the other(total): 0
 9.  Take the percentage of dict1 and multiplying it by 10, then store the key percentage*10 times in a list
