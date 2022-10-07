@@ -1,6 +1,10 @@
-# Clyde 'Thluffy' Sinclair
-# SoftDev
-# Oct 2022
+'''
+ADJ In The House! :: Joseph Wu, Anna Fang, Diana Akhmedova
+SoftDev
+K08 -- Putting it Together
+2022-10-07
+time spent: 0.5 hours
+'''
 
 from flask import Flask
 app = Flask(__name__) # What do the underscores between name mean?
