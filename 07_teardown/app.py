@@ -1,7 +1,7 @@
 '''
 Scuba Doo Divers: David Chen, Diana Akhmedova, Sam Cowan
 SoftDev
-K07 -- 07_teardown
+K07 -- Learnination Via Deconstruction
 2022-10-03
 time spent: 0.3 hours
 

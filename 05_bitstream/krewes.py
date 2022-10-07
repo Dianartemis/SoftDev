@@ -1,7 +1,7 @@
 """
 Russel Goychayev, Diana Akhmedova, Kevin Liu
 SoftDev
-K05 -- 05_bitstream
+K05 -- The More You Know About Your Data, the More Efficiently You Can Work With It
 2022-09-28
 time spent: 0.5 hours
 

@@ -1,7 +1,7 @@
 '''
 The Gooblers: Kevin Liu, Russell Goychayev, Diana Akhmedova
 SoftDev
-K06 -- 06_py-csv
+K06 -- StI/O: Divine your Destiny!
 2022-10-01
 time spent: 1.0 hour
 
