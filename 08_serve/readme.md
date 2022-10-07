@@ -3,6 +3,8 @@
 * Anna Fang
 * Diana Akhmedova
 
+<br>
+
 # DISCO:
 - Everytime the user saves new changes, the debugger will activate and refresh the program.
 - @app.route("/") routes the return of hello_world() onto a web page.
@@ -14,10 +16,14 @@
 - We have to have a main function, which is the first function underneath @app.route(), that will contain all other necessary funtions.
 - The local variables cannot be underneath @app.route().
 
+<br>
+
 # QCC:
 - What exactly is \__name__? What is \__main__?
 - Why can we not have multiple functions returning at the same time?
 - Why is Flask a combination of Python and HTML?
+
+<br>
 
 # OPS SUMMARY:
 
