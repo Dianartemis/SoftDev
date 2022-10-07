@@ -10,7 +10,7 @@
 - print() will print "\__main__" in the terminal.
 - Return will display on the web page.
 - run() runs the program.
-- \n does not work in Flask, we have to use <br> instead to create a new line.
+- \n does not work in Flask, we have to use <\br> instead to create a new line.
 - We have to have a main function, which is the first function underneath @app.route(), that will contain all other necessary funtions.
 - The local variables cannot be underneath @app.route().
 
