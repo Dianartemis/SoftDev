@@ -84,7 +84,11 @@ def random_occupation():
     return ret
 
 def list_occupations():
-    return list(dict.keys())
+    ret = "LIST OF OCCUPATIONS:"
+    temp = list(dict.keys())
+    for i in temp:
+        ret += "<br>" + str(i)
+    return ret
 
 if __name__ == "__main__":  # true if this file NOT imported
     app.debug = True        # enable auto-reload upon code change
