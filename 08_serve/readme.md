@@ -39,7 +39,7 @@
 9.  Take the percentage of dict1 and multiplying it by 10, then store the key percentage*10 times in a list
 10. Using random.choice, pick a element from the list at random
 
-# RETURNING OUTPUT IN FLASK:
+## RETURNING OUTPUT IN FLASK:
 1.  We made sure to import random and Flask, as well as place the local variables above @app.route().
 2.  Then we created a main function called output() that holds and returns our other functions with new lines as formatting. This includes:
 3.  The roster() function that returns our TNPG and Roster.
