@@ -8,7 +8,7 @@
 # DISCO:
 * Prediction: We predict that the textfile will display on the webpage as well as the html file.
 * The text has to be between <html> and </html> in order to appear on the webpage.
-* <!DOCTYPE html> delares that the code will be read as html.
+* \<!DOCTYPE html\> delares that the code will be read as html.
 * The link in the foo plain text file downloads the entire text file whenrun on the browser.
 
 <br>
