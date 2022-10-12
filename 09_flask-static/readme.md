@@ -10,6 +10,7 @@
 * The text has to be between <html> and </html> in order to appear on the webpage.
 * \<!DOCTYPE html\> delares that the code will be read as html.
 * The link in the foo plain text file downloads the entire text file whenrun on the browser.
+* \<!--placeholder--\> is how to make a comment in html.
 
 <br>
 
