@@ -18,3 +18,4 @@ Predictions:
 
 # QCC:
 * Why does this list display the elements within it with new lines?
+* What is endfor? Why are there % signs surrounding it?
