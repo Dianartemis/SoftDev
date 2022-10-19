@@ -1,9 +1,9 @@
 /*
 * DEM PUMPKINS: Diana Akhmedova, Emily Ortiz, May Qiu
 * SoftDev
-* K13 -- Stuylin' & Wylin' & Profilin'
-* 2022-10-18
-* time spent: 1 hr
+* K14 -- Serving Looks
+* 2022-10-19
+* time spent: 0.3 hr
 */
 
 body {
@@ -17,11 +17,6 @@ h1{
     margin: 0%;
     padding: 0%;
 }
-
-/*.main_content{
-    display: inline-block;
-
-}*/
 
 #flex_container {
     background-color: #767676;
@@ -57,7 +52,3 @@ nav {
 #navigate {
     width: 100%;
 }
-/*
-nav bar
-
-*/
