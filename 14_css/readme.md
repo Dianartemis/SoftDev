@@ -20,4 +20,4 @@ padding: 0%;
 * In index.html, we had to edit the link so it could properly access our style sheet: ```href="../static/style.css"```
 
 ### QCC
-* We need to keep line 9 in app.py: ```app = Flask(__name__)```
+* We need to keep line 9 in app.py: ```app = Flask(__name__)```, but we're not completely sure what this does.
