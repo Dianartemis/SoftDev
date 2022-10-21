@@ -81,6 +81,6 @@ When possible, it is best to use the keyboard instead of the mouse. Using the ke
 Accurate as of (last update): 2022-10-20
 
 #### Contributors:  
-Diana Akhmedova Pd 7  
-Emily Ortiz Pd 7  
-May Qiu Pd 7  
+Diana Akhmedova, pd 7  
+Emily Ortiz, pd 7  
+May Qiu, pd 7  
