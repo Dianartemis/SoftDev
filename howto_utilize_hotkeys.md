@@ -3,13 +3,13 @@
 ## Overview
 When possible, it is best to use the keyboard instead of the mouse. Using the keyboard saves time.
 
-### Estimated Time Cost: 1.5 hrs (round to nearest 0.1)
+### Estimated Time Cost: 1.5 hrs
 
 ### Prerequisites:
 - You need a keyboard :)
 - There are a lot, so you can just use the ones that seem useful to you!
 
-#### Basic Hotkeys Everyone Should Know
+### Basic Hotkeys Everyone Should Know:
 | Hotkey | What It Does |
 | ------ | ------------ |
 | CTRL + C | Copying content |
@@ -19,7 +19,7 @@ When possible, it is best to use the keyboard instead of the mouse. Using the ke
 | CTRL + S | Saves file |
 | WINDOWS + L | Locks PC |
 
-#### Application-Based Hotkeys
+### Application-Based Hotkeys:
 | Hotkey | What It Does |
 | ------ | ------------ |
 | CTRL + + | Zooms in |
@@ -29,7 +29,7 @@ When possible, it is best to use the keyboard instead of the mouse. Using the ke
 | CTRL + P | Opens print dialogue window |
 | ESC | Stop/Leave current task |
 
-#### Brower-Related Hotkeys
+### Brower-Related Hotkeys:
 | Hotkey | What It Does |
 | ------ | ------------ |
 | CTRL + T | Opens a new tab |
@@ -44,7 +44,7 @@ When possible, it is best to use the keyboard instead of the mouse. Using the ke
 | CTRL + L | Selects address bar |
 | CTRL + U | Opens current page's source code |
 
-#### Terminal-Related Hotkeys
+### Terminal-Related Hotkeys:
 | Hotkey | What It Does |
 | ------ | ------------ |
 | CTRL + ALT + T | Opening the terminal |
@@ -53,7 +53,7 @@ When possible, it is best to use the keyboard instead of the mouse. Using the ke
 | CTRL + C | Terminates current running program |
 | CTRL + X | Exits program or file |
 
-#### Quality of Life Hotkeys
+### Quality of Life Hotkeys:
 | Hotkey | What It Does |
 | ------ | ------------ |
 | ALT + TAB | Switch between different windows |
@@ -68,10 +68,10 @@ When possible, it is best to use the keyboard instead of the mouse. Using the ke
 | WINDOWS + D | Shows/Hides all open applications |
 | PRTSCN | Screenshots entire screen and copies to clipboard |
 
-#### How To Make Your Own Hotkeys (Keyboard Edition)
+### How To Make Your Own Hotkeys:
 * https://www.perkins.org/resource/how-create-custom-keyboard-shortcuts-windows/
 
-#### Protips for Learning/Memorizing Hotkeys
+### Protips for Learning/Memorizing Hotkeys:
 * Practice the hotkeys every time you feel like you are reaching for the mouse.
 * Utilize resources such as Quizlet and Anki to practice your knowledge of hotkeys.
 * Editable Quizlet: https://quizlet.com/737551114/how-to-hotkeys-flash-cards/?x=1jqt (PWD: SOFTDEV22)
