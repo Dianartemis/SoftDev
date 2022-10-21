@@ -3,7 +3,7 @@
 ## Overview
 When possible, it is best to use the keyboard instead of the mouse. Using the keyboard saves time.
 
-### Estimated Time Cost: x.x hrs (round to nearest 0.1)
+### Estimated Time Cost: 1.5 hrs (round to nearest 0.1)
 
 ### Prerequisites:
 - You need a keyboard :)
@@ -66,7 +66,7 @@ When possible, it is best to use the keyboard instead of the mouse. Using the ke
 | WINDOWS + UP ARROW | Makes window full screen |
 | WINDOWS + DOWN ARROW | Makes window original size |
 | WINDOWS + D | Shows/Hides all open applications |
-| PRTSCN | Snip Screen |
+| PRTSCN | Screenshots entire screen and copies to clipboard |
 
 #### How To Make Your Own Hotkeys (Keyboard Edition)
 * https://www.perkins.org/resource/how-create-custom-keyboard-shortcuts-windows/
@@ -74,6 +74,7 @@ When possible, it is best to use the keyboard instead of the mouse. Using the ke
 #### Protips for Learning/Memorizing Hotkeys
 * Practice the hotkeys every time you feel like you are reaching for the mouse.
 * Utilize resources such as Quizlet and Anki to practice your knowledge of hotkeys.
+* Editable Quizlet: https://quizlet.com/737551114/how-to-hotkeys-flash-cards/?x=1jqt (PWD: SOFTDEV22)
 
 ---
 
