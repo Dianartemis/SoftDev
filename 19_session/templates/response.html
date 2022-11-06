@@ -3,7 +3,7 @@
   SoftDev
   K19 -- Sessions Greetings
   2022-11-03
-  time spent:  hours
+  time spent: 3.5 hours
 -->
 
 <!DOCTYPE html>
@@ -17,7 +17,11 @@
     <body>
         <h1>DEM PUMPKINS: Emily Ortiz, May Qiu, Diana Akhmedova</h1>
 
-        <p>Welcome {{ username }}!</p>
+        <p>Welcome {{ response_username }}!</p>
+
+        <form action="/logout" method="POST">
+          <a href="/logout" name="logout" value="Logout"><button>Logout</button></a>
+        </form>
     </body>
 
 </html>
