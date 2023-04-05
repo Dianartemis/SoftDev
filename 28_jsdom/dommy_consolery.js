@@ -69,7 +69,7 @@ var removeItem = function(n) {
 var red = function() { // sets a variable red equal to a new function
   var items = document.getElementsByTagName("li"); // gets the items with the <li> tag and sets them to a variable called items
   for(var i = 0; i < items.length; i++) { // for loop iterates from zero to the end of the ordered list
-    items[i].classList.add('red'); // ??
+    items[i].classList.add('red'); // adds a class named "red" to each item in the ordered list
   }
 };
 
@@ -77,10 +77,10 @@ var red = function() { // sets a variable red equal to a new function
 var stripe = function() { // sets a variable stripe equal to a new function
   var items = document.getElementsByTagName("li"); // gets the items with the <li> tag and sets them to a variable called items
   for(var i = 0; i < items.length; i++) { // for loop iterates from zero to the end of the ordered list
-    if (i%2==0){
-      items[i].classList.add('red');
+    if (i%2==0){ // if i is divisble by 2,S
+      items[i].classList.add('red'); // adds a class named "red" to each item in the ordered list
     } else {
-      items[i].classList.add('blue');
+      items[i].classList.add('blue'); // otherwise, adds a class named "blue" to each item in the ordered list
     }
   }
 };
@@ -107,30 +107,40 @@ function fac(n) {
       return 1;
   } return (n * fac(n - 1));
 }
-console.log("RETURNING FACT...");
+console.log("\nRETURNING FACT...");
 console.log(fac(1));
 console.log(fac(3));
 console.log(fac(5));
 
 
 // GCD
-// is this greatest common denominator or greatest common divisor?
 function gcd(a, b) {
   if (a == 0 || b == 0) {
     return 0;
-  }
-  if (a == 1 || b == 1) {
+  } if (a == 1 || b == 1) {
     return 1;
-  } return; // ??
+  } if (a == b) {
+    return a;
+  } if (a > b) {
+    return gcd(a - b, a);
+  } return gcd(a, b - a);
 }
+console.log("\nRETURNING GCD...");
+console.log(gcd(0, 3));
+console.log(gcd(5, 1));
+console.log(gcd(7, 7));
+console.log(gcd(28, 40));
+console.log(gcd(121, 66));
 
 
 // In addition to the style shown above,
 //  you are encouraged to test drive the "arrow function syntax" as shown below.
 //  Note anything notable.
-const myFxn = (param1, param2) => {
-  // body
+const dist = (param1, param2) => {
+  retVal = Math.abs(param1 - param2);
   return retVal;
 };
-
-
+console.log("\nRETURNING DIST...")
+console.log(dist(2, 3));
+console.log(dist(10, 7));
+console.log(dist(28, 99));
