@@ -5,17 +5,15 @@ K27 -- Basic functions in JavaScript
 
 DISCO
 -----------------------------------------------------------------
-* Ooooh, ___
-* Aaah-haa!  ____
-* ...
+* JavaScript uses the keyword "function" to denote a method.
+* JavaScript does not require variable types for function arguments.
+* You can use console.log() to print something in the terminal.
+* JavaScript has similar syntax to Java, like the semicolons and the curly brackets.
 =================================================================
 
 QCC
 -----------------------------------------------------------------
-* Why...?
-* Huh?
-* Teh whah now?
-* ...
+* How is JavaScript similar to Scheme?
 =================================================================
 
 
