@@ -9,7 +9,7 @@ var clicky = function(e) {
   alert( this.innerHTML );
   //Q: What will happen when next line is uncommented?
   //A: Only the <table> alert appears.
-  //prediction: the alert will not appear and an error will appear in the console
+  //Prediction: the alert will not appear and an error will appear in the console.
   //e.stopPropagation();
 };
 
@@ -23,8 +23,9 @@ for (x=0; x < trs.length; x++) {
 
 //Predict, then test...
 //Q: What effect does the boolean arg have?
+//A: The boolean arg priortizes the Event Listener with the "true" boolean argument.
+//Prediction: When the boolean is true, the alert appears; when the boolean is false, the alert does not appear.
 //   (Leave exactly 1 version uncommented to test...)
-//prediction: when the boolean is true, the alert appears; when the boolean is false, the alert does not appear
 
 table.addEventListener('click', clicky, true);
 //table.addEventListener('click', clicky, false);
